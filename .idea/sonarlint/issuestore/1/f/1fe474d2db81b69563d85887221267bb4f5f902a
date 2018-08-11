@@ -1,0 +1,5 @@
+
+jsquid:S00112T"FDefine and throw a dedicated exception instead of using a generic one.(äÏä¬ÿÿÿÿÿ8ý•š™Ï,
+Ksquid:S1481z"(Remove this unused "buf" local variable.(‚†Æ€þÿÿÿÿ8ý•š™Ï,
+Isquid:S1181˜"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ8ý•š™Ï,
+Zsquid:S1854z"7Remove this useless assignment to local variable "buf".(‚†Æ€þÿÿÿÿ8ý•š™Ï,
