@@ -1,27 +1,24 @@
 package com.vitor.tcc_projeto;
 
 import com.vitor.tcc_projeto.utils.FileHeader;
-import java.awt.HeadlessException;
-import org.jgroups.*;
+import org.jgroups.JChannel;
+import org.jgroups.Message;
+import org.jgroups.ReceiverAdapter;
 import org.jgroups.conf.ClassConfigurator;
 import org.jgroups.util.Util;
 
-import java.util.*;
-import java.io.*;
-import java.net.InetAddress;
-
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
+import java.awt.HeadlessException;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import javax.swing.JFileChooser;
-import javax.swing.JOptionPane;
-import org.hive2hive.core.api.H2HNode;
-import org.hive2hive.core.api.configs.FileConfiguration;
-import org.hive2hive.core.api.configs.NetworkConfiguration;
-import org.hive2hive.core.api.interfaces.IFileConfiguration;
-import org.hive2hive.core.api.interfaces.IH2HNode;
-import org.hive2hive.core.api.interfaces.INetworkConfiguration;
 
 /**
  *
@@ -39,11 +36,9 @@ public class CloudStoragePrincipal extends ReceiverAdapter {
     /**
      * Loop Principal, é aqui que serão escolhidos os arquivos que serão enviados para a nuvem
      *
-     * @throws Exception Erro de arquivos
      */
-    private void eventLoop() throws Exception {
+    private void eventLoop() {
         int saida;
-        saida = 0;
 
         do {
             String texto = JOptionPane.showInputDialog(null, "Digite 1 para enviar um arquivo para a nuvem, ou 0 para sair");
@@ -72,6 +67,7 @@ public class CloudStoragePrincipal extends ReceiverAdapter {
                 }
             } catch (NumberFormatException e) {
                 l.log(Level.SEVERE,"Houve algum erro!");
+                saida=0;
             }
 
         } while (saida != 0);
@@ -79,21 +75,19 @@ public class CloudStoragePrincipal extends ReceiverAdapter {
 
     /**
      *
-     * @param filepath
-     * @throws Exception
+     * @param filepath path of the file
      */
-    protected void sendFile(String filepath) throws Exception {
+    private void sendFile(String filepath) {
         File inFile = new File(filepath);
         if( !inFile.exists() ){
             l.log(Level.SEVERE,"ERRO: não existe um arquivo com o caminho informado.");
             return;
         }
-        FileInputStream in = new FileInputStream(inFile);
 
         //instanciando o meu FileInputStream com o meu arquivo ele criara a stream
         //para lermos o arquivo
-        try {
-            for (;;) {
+        try (FileInputStream in = new FileInputStream(inFile)) {
+            for (; ; ) {
                 byte[] buf = new byte[4096];
                 int bytesLidos = in.read(buf);
                 if (bytesLidos == -1) {
@@ -105,18 +99,17 @@ public class CloudStoragePrincipal extends ReceiverAdapter {
                 //arquivo
             }
         } catch (IOException e) {
-            l.log(Level.SEVERE,e.getMessage());
+            l.log(Level.SEVERE, e.getMessage());
         } finally {
             sendMessage(null, 0, 0, true, inFile);
-            in.close();
-            l.log(Level.INFO,inFile.getName());
+            l.log(Level.INFO, inFile.getName());
             //mando vazio dizendo que o arquivo acabou
         }
     }
 
     /**
      *
-     * @param msg
+     * @param msg msg
      */
     @Override
     public void receive(Message msg) {
@@ -152,18 +145,26 @@ public class CloudStoragePrincipal extends ReceiverAdapter {
             }
         } catch (HeadlessException | IOException t) {
             l.log(Level.SEVERE,t.getMessage());//caso houver falha
+        }finally {
+            try {
+                if(out != null){
+                    out.close();
+                }
+            } catch (IOException e) {
+                l.log(Level.SEVERE, e.getMessage());
+            }
         }
     }
 
     /**
      *
-     * @param buf
-     * @param offset
-     * @param length
-     * @param eof
-     * @param inFile
+     * @param buf buffer
+     * @param offset offset
+     * @param length size
+     * @param eof end of the file
+     * @param inFile MyFile
      */
-    protected void sendMessage(byte[] buf, int offset, int length, boolean eof, File inFile) {
+    private void sendMessage(byte[] buf, int offset, int length, boolean eof, File inFile) {
         Message msg = new Message(null, buf, offset, length).putHeader(ID, new FileHeader(inFile.getName(), eof));
         //instanciando nova mensagem com o null no campo de endereço iremos fazer
         //o multicast, passamos o buffer o deslocamento
@@ -178,36 +179,32 @@ public class CloudStoragePrincipal extends ReceiverAdapter {
 
     /**
      *
-     * @throws Exception
+     * @throws Exception Exception
      */
     private void start() throws Exception {
 
-        IFileConfiguration fileConfiguration;
-
         String userHomeDir = System.getProperty("user.home") + File.separator + "Desktop";
         this.cloudFolder = new File(userHomeDir + File.separator + "VitorCloud");
-        this.cloudFolder.mkdirs();
-        
+        boolean initiated = this.cloudFolder.mkdirs();
+        if(initiated){
+            l.log(Level.FINEST,"DIRETÓRIO CRIADO");
+        }else if(this.cloudFolder.exists()){
+            l.log(Level.FINEST,"DIRETÓRIO EXISTENTE");
+        }
         ClassConfigurator.add((short) 3500, FileHeader.class);
         channel = new JChannel("sequencer.xml");//setando o nome do canal
         channel.setReceiver(this);//setando o receiver
-        
-        fileConfiguration = FileConfiguration.createDefault();
-        IH2HNode peer = H2HNode.createNode(fileConfiguration);
-        
-        INetworkConfiguration netConfig = NetworkConfiguration.create("n-node",InetAddress.getLocalHost());
-        peer.connect(netConfig);
-
-        l.log(Level.INFO, "Conectado: {0}", peer.isConnected());
+        l.log(Level.INFO,"Inserindo na rede de nós Kademlia");
         channel.connect("Cluster de Arquivos");
+        l.log(Level.INFO,"Inicialização Pronta");
         eventLoop();//iniciando o eventLoop que será responsável por mandar o arquivo
         channel.close();
     }
 
     /**
      *
-     * @param args
-     * @throws Exception
+     * @param args args
+     * @throws Exception Exception
      */
     public static void main(String[] args) throws Exception{
         new CloudStoragePrincipal().start();

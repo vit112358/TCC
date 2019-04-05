@@ -5,3 +5,15 @@ e
 5src/main/java/com/vitor/tcc_projeto/utils/GetMac.java,c\5\c59b7f1f79f96c8ae5b57b4d02e76989caa6478a
 n
 >src/main/java/com/vitor/tcc_projeto/CloudStoragePrincipal.java,1\f\1fe474d2db81b69563d85887221267bb4f5f902a
+X
+(src/main/java/com/vitor/Data/MyFile.java,8\1\81868b95f037e48dcebf3833d758c2ef89563ca6
+\
+,src/main/java/kademlia/KadConfiguration.java,b\3\b3c5477961cc0169e64328b56f727e645b517d00
+f
+6src/main/java/kademlia/simulations/DHTContentImpl.java,b\c\bcc113154cf6880550c6b85f2dda98ccb7366c38
+h
+8src/main/java/com/vitor/tcc_projeto/utils/Geradores.java,a\7\a7e1a366e3e39b1ae240c7fb564928625169cd0b
+j
+:src/main/java/kademlia/simulations/ContentSendingTest.java,4\0\409e82dfb27bce8c56a07f984b9f3619a75ff43f
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

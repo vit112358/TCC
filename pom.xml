@@ -16,6 +16,7 @@
             <id>tomp2p.net</id>
             <url>http://tomp2p.net/dev/mvn/</url>
         </repository>
+
         
         <repository>
             <id>hive2hive.org</id>
@@ -37,5 +38,18 @@
             <artifactId>org.hive2hive.core</artifactId>
             <version>1.2.2</version>
           </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.tomp2p</groupId>
+            <artifactId>tomp2p-all</artifactId>
+            <version>5.0-Beta8</version>
+        </dependency>
     </dependencies> 
 </project>

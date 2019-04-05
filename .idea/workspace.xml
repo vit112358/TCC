@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2086f156-eab9-4d39-8e51-e8436f7c6746" name="Default" comment="" />
+    <list default="true" id="2086f156-eab9-4d39-8e51-e8436f7c6746" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vitor/Data/fileStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/utils/Geradores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fe474d2db81b69563d85887221267bb4f5f902a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fe474d2db81b69563d85887221267bb4f5f902a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCC_Projeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TCC_Projeto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/CloudStoragePrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/CloudStoragePrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/utils/GetMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/utils/GetMac.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,16 +26,83 @@
       <FILTER>com.vitor.tcc_projeto.*</FILTER>
     </SUITE>
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1493760439">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Todo" value="1" />
+          <entry key="java" value="63" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="63" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="2" />
+          <entry key="java" value="1250" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1250" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CloudStoragePrincipal.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/CloudStoragePrincipal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="79" column="6" lean-forward="true" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+            <state relative-caret-position="187">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/Data/fileStructure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -41,16 +119,67 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>logger</find>
+      <find>MyFile</find>
       <find>buf</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/utils/FileHeader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/utils/GetMac.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/CloudStorage_Principal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/utils/GetMac.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/Data/File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/Data/Value.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/Data/MyFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/KadConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/GetParameter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/KadContent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/JKademliaStorageEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/KademliaStorageEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/KademliaStorageEntryMetadata.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/StorageEntryMetadata.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/StoredContentManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/exceptions/ContentExistException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/exceptions/ContentNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/exceptions/KadServerDownException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/exceptions/RoutingException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/exceptions/UnknownMessageException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/AcknowledgeMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/ConnectMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/Streamable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/Receiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/KademliaMessageFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/MessageFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/NodeLookupMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/NodeLookupReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/NodeReplyMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/SimpleMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/SimpleReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/StoreContentMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/node/KademliaId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/node/KeyComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/node/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/DefaultConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/ContentLookupMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/KadStatistician.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/KademliaDHT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/DHT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/ContentLookupReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/KademliaNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/StoreContentReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/KadServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/ConnectReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/util/serializer/JsonSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/kademlia/util/serializer/JsonRoutingTableSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/utils/Geradores.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/CloudStoragePrincipal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vitor/Data/fileStructure.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -60,47 +189,97 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="830" />
+    <option name="x" value="-7" />
+    <option name="width" value="734" />
+    <option name="height" value="907" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TCC_Projeto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCC_Projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="TCC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vitor" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vitor" type="462c0819:PsiDirectoryNode" />
+              <item name="tcc_projeto" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.6045322" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/portuguese/portuguese.dic" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554426622985" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/gson-2.6.2.jar!/" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -115,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ContentSendingTest">
     <configuration name="CloudStoragePrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vitor.tcc_projeto.CloudStoragePrincipal" />
       <module name="TCC_Projeto" />
@@ -126,51 +305,52 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentSendingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kademlia.simulations.ContentSendingTest" />
+      <module name="TCC_Projeto" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kademlia.simulations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CloudStoragePrincipal" />
+      <item itemvalue="Application.ContentSendingTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CloudStoragePrincipal" />
+        <item itemvalue="Application.ContentSendingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,11 +366,13 @@
       <option name="presentableId" value="Default" />
       <updated>1532914208928</updated>
       <workItem from="1532914233503" duration="4529000" />
+      <workItem from="1538445347212" duration="6192000" />
+      <workItem from="1554425556272" duration="1058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4529000" />
+    <option name="totallyTimeSpent" value="11779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -202,40 +384,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39920425" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891247" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891247" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891247" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32891247" />
       <window_info auto_hide="true" content_ui="combo" x="593" y="58" width="254" height="754" id="Project" order="0" weight="0.18194842" />
-      <window_info anchor="bottom" id="SonarLint" weight="0.39655173" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Learn" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" weight="0.3295129" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32992327" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2774936" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39897698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891247" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891247" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286445" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.39655173" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,41 +426,82 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jgroups/jgroups/3.6.4.Final/jgroups-3.6.4.Final.jar!/org/jgroups/JChannel.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/Data/Value.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/KadConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/KadContent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/JKademliaStorageEntry.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/GetParameter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/KademliaStorageEntry.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/KademliaStorageEntryMetadata.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/StorageEntryMetadata.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/StoredContentManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/exceptions/ContentExistException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/exceptions/ContentNotFoundException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/exceptions/KadServerDownException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/exceptions/RoutingException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/exceptions/UnknownMessageException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/AcknowledgeMessage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/ConnectMessage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/Streamable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/MessageFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/KademliaMessageFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/Message.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/NodeLookupMessage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/NodeReplyMessage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/Receiver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/SimpleMessage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/SimpleReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/NodeLookupReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/StoreContentMessage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/DefaultConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/node/KeyComparator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/node/Node.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/ContentLookupReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/ContentLookupMessage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/KadStatistician.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/KademliaNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/node/KademliaId.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/StoreContentReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/KademliaDHT.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/dht/DHT.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/simulations/Simulation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/util/serializer/JsonRoutingTableSerializer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/util/serializer/JsonSerializer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/message/ConnectReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/kademlia/KadServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kademlia/KadConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        <state relative-caret-position="54">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/utils/FileHeader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/kademlia/simulations/DHTContentImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="217">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/utils/GetMac.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/utils/Geradores.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="204">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kademlia/simulations/ContentSendingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/Data/MyFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -287,13 +510,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/tcc_projeto/CloudStoragePrincipal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="79" column="6" lean-forward="true" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+        <state relative-caret-position="187">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vitor/Data/fileStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TCC_Projeto</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-io:commons-io:2.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -10,14 +10,20 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/gson-2.6.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: org.jgroups:jgroups:3.6.4.Final" level="project" />
     <orderEntry type="library" name="Maven: org.hive2hive:org.hive2hive.core:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.hive2hive:org.hive2hive.processframework:1.1" level="project" />
     <orderEntry type="library" name="Maven: net.tomp2p:tomp2p-dht:5.0-Beta5" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-transport:4.0.25.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.0.25.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-common:4.0.25.Final" level="project" />
-    <orderEntry type="library" name="Maven: net.tomp2p:tomp2p-core:5.0-Beta5" level="project" />
     <orderEntry type="library" name="Maven: net.tomp2p:tomp2p-replication:5.0-Beta5" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.51" level="project" />
@@ -27,5 +33,18 @@
     <orderEntry type="library" name="Maven: net.engio:mbassador:1.2.0" level="project" />
     <orderEntry type="library" name="Maven: javax.el:el-api:2.2" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Maven: net.tomp2p:tomp2p-all:5.0-Beta8" level="project" />
+    <orderEntry type="library" name="Maven: net.tomp2p:tomp2p-core:5.0-Beta8" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.0.28.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.0.28.Final" level="project" />
+    <orderEntry type="library" name="Maven: net.tomp2p:tomp2p-nat:5.0-Beta8" level="project" />
+    <orderEntry type="library" name="Maven: org.bitlet:weupnp:0.1.2" level="project" />
+    <orderEntry type="library" name="Maven: com.ganyo:gcm-server:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1" level="project" />
+    <orderEntry type="library" name="Maven: net.tomp2p:tomp2p-android:5.0-Beta8" level="project" />
+    <orderEntry type="library" name="Maven: net.tomp2p:tomp2p-storage:5.0-Beta8" level="project" />
+    <orderEntry type="library" name="Maven: org.mapdb:mapdb:1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: net.tomp2p:tomp2p-tracker:5.0-Beta8" level="project" />
   </component>
 </module>

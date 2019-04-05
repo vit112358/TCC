@@ -30,8 +30,8 @@ public class GetMac {
             NetworkInterface ni = NetworkInterface.getByInetAddress(address);
             byte[] mac = ni.getHardwareAddress();
             StringBuilder builder = new StringBuilder();
-            for (int i = 0; i < mac.length; i++) {
-                builder.append(String.format("%02X-", mac[i]));
+            for (byte aMac : mac) {
+                builder.append(String.format("%02X-", aMac));
             }
             macAddress=builder.toString();
             l.log(Level.FINE, macAddress.substring(0, macAddress.length()-1));
