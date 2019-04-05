@@ -23,31 +23,69 @@ public class fileStructure<T> implements Iterable<fileStructure<T>>  {
      *     }
      * }
       */
-    private T data;
-    private fileStructure<T> parent;
-    private List<fileStructure<T>> children;
+    public T data;
+    public fileStructure<T> parent;
+    public List<fileStructure<T>> children;
+
+    public boolean isRoot() {
+        return parent == null;
+    }
+
+    public boolean isLeaf() {
+        return children.size() == 0;
+    }
+
+    private List<fileStructure<T>> elementsIndex;
 
     public fileStructure(T data) {
         this.data = data;
         this.children = new LinkedList<>();
+        this.elementsIndex = new LinkedList<>();
+        this.elementsIndex.add(this);
     }
 
     public fileStructure<T> addChild(T child) {
         fileStructure<T> childNode = new fileStructure<>(child);
         childNode.parent = this;
         this.children.add(childNode);
+        this.registerChildForSearch(childNode);
         return childNode;
     }
 
-    /**
-     * Not Implemented yet
-     * @return null
-     */
-    @Override
-    public Iterator<fileStructure<T>> iterator() {
-        //Not implemented yet
+    public int getLevel() {
+        if (this.isRoot())
+            return 0;
+        else
+            return parent.getLevel() + 1;
+    }
+
+    private void registerChildForSearch(fileStructure<T> node) {
+        elementsIndex.add(node);
+        if (parent != null)
+            parent.registerChildForSearch(node);
+    }
+
+    public fileStructure<T> findTreeNode(Comparable<T> cmp) {
+        for (fileStructure<T> element : this.elementsIndex) {
+            T elData = element.data;
+            if (cmp.compareTo(elData) == 0)
+                return element;
+        }
+
         return null;
     }
+
+    @Override
+    public String toString() {
+        return data != null ? data.toString() : "[data null]";
+    }
+
+    @Override
+    public Iterator<fileStructure<T>> iterator() {
+        fileStructureIter<T> iter = new fileStructureIter<T>(this);
+        return iter;
+    }
+
 
     /**
      * Not Implemented yet
