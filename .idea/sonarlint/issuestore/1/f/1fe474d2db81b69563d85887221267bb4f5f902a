@@ -1,8 +1,3 @@
 
-\
-squid:S106Å"9Replace this use of System.out or System.err by a logger.(ùƒÊ£üÿÿÿÿ8±Ùœ–ã,
-jsquid:S00112V"FDefine and throw a dedicated exception instead of using a generic one.(äÏä¬ÿÿÿÿÿ8ý•š™Ï,
-Ksquid:S1481z"(Remove this unused "buf" local variable.(‚†Æ€þÿÿÿÿ8ý•š™Ï,
-Hsquid:S1068&"*Remove this unused "master" private field.(¿©‹„8ÿÞÿ•ã,
-msquid:S2095Š"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ä§¤Ì8´äö“ã,
-Zsquid:S1854z"7Remove this useless assignment to local variable "buf".(‚†Æ€þÿÿÿÿ8ý•š™Ï,
+Msquid:S2093~"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ÝÛˆØž-
+Ksquid:S1481t"(Remove this unused "buf" local variable.(‚†Æ€þÿÿÿÿ8ý•š™Ï,
